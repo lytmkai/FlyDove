@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@drawable/title_textColor"
+        android:textStyle="bold"
+        android:background="@drawable/titlebg"
+        android:paddingLeft="5dp"
+        android:text="@string/title" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title"
+        android:background="@drawable/divider_color" />
+    
+    <ListView
+       android:id="@+id/list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="50dp"
+       android:layout_below="@id/divider"
+       android:divider="@drawable/listdivider_color"
+       android:dividerHeight="2dp"
+       android:footerDividersEnabled="true" />
+
+</RelativeLayout>

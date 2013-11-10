@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEE1D0"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#287BBD" >
+        
+        <ImageView
+            android:id="@+id/btnSetBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/title"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/back" />
+
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:text="@string/menu_settings"
+	        android:textColor="@android:color/white"
+	        android:textSize="24sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/set_bg" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/setting_port" />
+
+        <Button
+            android:id="@+id/btnSetPort"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:paddingRight="30dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/menu_settings"
+            android:src="@drawable/right_arrow" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/set_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/setting_user" />
+
+        <Button
+            android:id="@+id/btnSetUser"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:paddingRight="30dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/menu_settings"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/set_bg" >
+        <CheckedTextView
+            android:id="@+id/btnSetSave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:checkMark="@layout/selector"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="@string/setting_autosave" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/set_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/setting_savepath" />
+
+        <Button
+            android:id="@+id/btnSetPath"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:paddingRight="30dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:contentDescription="@string/menu_settings"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/set_bg" >
+        <CheckedTextView
+            android:id="@+id/btnSetTone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:checkMark="@layout/selector"            
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="@string/setting_tone" />
+    </RelativeLayout>
+
+
+    
+</LinearLayout>

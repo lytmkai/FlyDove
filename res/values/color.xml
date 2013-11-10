@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <drawable name="title_textColor">#FFFF00</drawable>
+    <drawable name="divider_color">#000000</drawable>
+    <drawable name="listdivider_color">#0055AA</drawable>
+    <drawable name="text2_color">#FFAAFF</drawable>
+</resources>

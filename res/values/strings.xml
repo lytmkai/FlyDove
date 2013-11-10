@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">飞鸽</string>
+    <string name="title">飞鸽传书</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="menu_refresh">刷 新</string>
+    <string name="menu_settings">设 置</string>
+    <string name="menu_about">关 于</string>
+    <string name="menu_quit">退 出</string>
+    <string name="setting_port">端口</string>
+    <string name="setting_user">用户名</string>
+    <string name="setting_autosave">自动接收</string>
+    <string name="setting_savepath">默认路径</string>
+    <string name="setting_tone">提示音</string>
+    <string name="popup_sendmsg">发送消息</string>
+    <string name="popup_sendfile">发送文件</string>
+    
+    
+    
+    
+    
+
+</resources>
